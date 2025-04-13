@@ -20,17 +20,17 @@ riya_image = face_recognition.load_image_file("photos/riya.jpg")
 riya_encoding = face_recognition.face_encodings(riya_image)[0]
 
 known_face_encoding = [
-jobs_encoding,
-ratan_tata_encoding,
-sadmona_encoding,
-tesla_encoding
+himanshi_encoding,
+bhavya_encoding,
+anshika_encoding,
+riya_encoding
 ]
 
 known_faces_names = [
-"jobs",
-"ratan tata",
-"sadmona",
-"tesla"
+"himanshi",
+"bhavya",
+"anshika",
+"riya"
 ]
 
 students = known_faces_names.copy()
