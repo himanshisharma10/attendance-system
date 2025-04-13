@@ -7,17 +7,17 @@ from datetime import datetime
 
 video_capture = cv2.VideoCapture(0)
 
-jobs_image = face_recognition.load_image_file("photos/jobs.jpg")
-jobs_encoding = face_recognition.face_encodings(jobs_image)[0]
+himanshi_image = face_recognition.load_image_file("photos/himanshi.jpg")
+himanshi_encoding = face_recognition.face_encodings(himanshi_image)[0]
 
-ratan_tata_image = face_recognition.load_image_file("photos/tata.jpg")
-ratan_tata_encoding = face_recognition.face_encodings(ratan_tata_image)[0]
+bhavya_image = face_recognition.load_image_file("photos/bhavya.jpg")
+bhavya_encoding = face_recognition.face_encodings(bhavya_image)[0]
 
-sadmona_image = face_recognition.load_image_file("photos/sadmona.jpg")
-sadmona_encoding = face_recognition.face_encodings(sadmona_image)[0]
+anshika_image = face_recognition.load_image_file("photos/anshika.jpg")
+anshika_encoding = face_recognition.face_encodings(anshika_image)[0]
 
-tesla_image = face_recognition.load_image_file("photos/tesla.jpg")
-tesla_encoding = face_recognition.face_encodings(tesla_image)[0]
+riya_image = face_recognition.load_image_file("photos/riya.jpg")
+riya_encoding = face_recognition.face_encodings(riya_image)[0]
 
 known_face_encoding = [
 jobs_encoding,
